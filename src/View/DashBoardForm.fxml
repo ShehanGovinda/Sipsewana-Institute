@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="DashBoardForm" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1207.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DashBoardFormController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <AnchorPane prefHeight="480.0" prefWidth="898.0" style="-fx-background-color: linear-gradient(to right top, #605986, #745daa, #905dcb, #b456e8, #de43ff);;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text layoutX="176.0" layoutY="419.0" onMouseClicked="#goToStudentRegisterForm" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Register" textAlignment="CENTER" wrappingWidth="103.6875">
+                     <font>
+                        <Font name="AdobeDevanagari-Regular" size="28.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="497.0" layoutY="418.0" onMouseClicked="#goToAddTrainingProgrammesForm" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Training Programmes" textAlignment="CENTER" wrappingWidth="156.84130859375">
+                     <font>
+                        <Font name="AdobeDevanagari-Regular" size="28.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="870.0" layoutY="417.0" onMouseClicked="#goToStudentDetailsForm" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Details" textAlignment="CENTER" wrappingWidth="85.60546875">
+                     <font>
+                        <Font name="AdobeDevanagari-Regular" size="28.0" />
+                     </font>
+                  </Text>
+               </children></AnchorPane>
+         </center>
+         <top>
+            <AnchorPane prefHeight="70.0" prefWidth="1207.0" style="-fx-background-color: #5A4328;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="WHITE" layoutX="429.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sipsewana Institute" wrappingWidth="374.90771484375">
+                     <font>
+                        <Font name="Agency FB Bold" size="52.0" />
+                     </font>
+                  </Text>
+               </children></AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="653.0" prefWidth="24.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <AnchorPane prefHeight="653.0" prefWidth="24.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <AnchorPane prefHeight="27.0" prefWidth="1207.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</StackPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <AnchorPane prefHeight="68.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text layoutX="179.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register Form">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text layoutX="26.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" />
+                  <Text layoutX="27.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nic :" />
+                  <Text layoutX="28.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E - Mail :" />
+                  <Text layoutX="28.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number :" />
+                  <Text layoutX="27.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Type :" />
+                  <Text layoutX="27.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name :" />
+                  <Text layoutX="27.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :" />
+                  <Text layoutX="27.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conform Password : " />
+                  <JFXButton layoutX="242.0" layoutY="524.0" />
+                  <JFXComboBox layoutX="272.0" layoutY="326.0" />
+                  <JFXPasswordField layoutX="256.0" layoutY="396.0" />
+                  <JFXTextField layoutX="256.0" layoutY="341.0" />
+                  <JFXTextField layoutX="257.0" layoutY="153.0" />
+                  <TextField layoutX="174.0" layoutY="33.0" />
+                  <TextField layoutX="173.0" layoutY="69.0" />
+                  <TextField layoutX="173.0" layoutY="106.0" />
+                  <TextField layoutX="173.0" layoutY="142.0" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>

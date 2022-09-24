@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="1012.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddTrainingProgrammesFormController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <AnchorPane prefHeight="76.0" prefWidth="978.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="WHITE" layoutX="267.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Training Programme Details">
+                     <font>
+                        <Font name="Serif Regular" size="49.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="52.0" fitWidth="51.0" layoutX="25.0" layoutY="12.0">
+                     <image>
+                        <Image url="@../images/home-5-256.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton layoutX="899.0" layoutY="30.0" prefHeight="28.0" prefWidth="83.0" style="-fx-background-color: #000751;" text="Log Out" textFill="WHITE">
+                     <font>
+                        <Font name="Agency FB Bold" size="16.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="686.0" prefWidth="23.0" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <AnchorPane prefHeight="522.0" prefWidth="931.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text layoutX="27.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Programme Name : " wrappingWidth="151.08642578125" />
+                  <Text layoutX="795.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pr ID:" wrappingWidth="52.08642578125" />
+                  <Text layoutX="27.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Programme Fee :" wrappingWidth="129.08642578125" />
+                  <Text layoutX="29.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Duration :" wrappingWidth="110.08642578125" />
+                  <JFXButton layoutX="563.0" layoutY="260.0" onAction="#btnSaveProgrammingDetails" text="Save" />
+                  <TextField fx:id="txtName" layoutX="170.0" layoutY="65.0" prefHeight="31.0" prefWidth="442.0" />
+                  <TextField fx:id="txtFee" layoutX="173.0" layoutY="184.0" prefHeight="31.0" prefWidth="441.0" />
+                  <TextField fx:id="txtDuration" layoutX="172.0" layoutY="119.0" prefHeight="31.0" prefWidth="270.0" />
+                  <Label fx:id="lblID" layoutX="835.0" layoutY="12.0" prefHeight="25.0" prefWidth="105.0" />
+               </children>
+            </AnchorPane>
+         </center>
+         <right>
+            <AnchorPane prefHeight="699.0" prefWidth="22.0" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <AnchorPane prefHeight="23.0" prefWidth="1267.0" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</StackPane>
